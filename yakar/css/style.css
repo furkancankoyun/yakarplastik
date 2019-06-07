@@ -1,0 +1,50 @@
+/*
+Theme Name:         TheSaaS Child
+Theme URI:          http://thetheme.io/wp/thesaas
+Description:        Responsive SaaS, Software & WebApp WordPress Theme
+Author:             TheThemeio
+Author URI:         http://thetheme.io
+Template:           thesaas
+Version:            1.3.2
+Text Domain:        thestarter-child
+Tags:               one-column, custom-menu, editor-style, featured-images, sticky-post, theme-options, translation-ready
+
+License:            Licensed under the Themeforest Standard Licenses
+License URI:        https://themeforest.net/licenses/terms/regular
+*/
+
+.portfolio-banners{
+	margin-bottom: 30px;
+}
+.portfolio-banners img{
+	width: 100%;
+}
+.button-group{
+	margin-top: 10px;
+}
+.button-group a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #f55b3e;
+    color: #fff;
+    width: 49%;
+    float: left;
+	text-align: center;
+	border-radius: 3px;
+}
+.button-group a.demo-link{
+	background-color: #111;
+	opacity: 0.8;
+}
+.button-group a:last-child{
+	margin-left: 2%;
+}
+.button-group a.demo-link:hover,
+.button-group a:hover{
+	opacity: 0.9;
+}
+span.item-price {
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+}
